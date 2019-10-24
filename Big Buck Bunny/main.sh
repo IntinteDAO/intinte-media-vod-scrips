@@ -12,8 +12,8 @@ ffmpeg -y -i input.mp4 -c:v libvpx -r 30 -b:v 0 -crf 12 -vf scale=720:576 -pass 
 rm ffmpeg2pass-0.log
 
 # High Quality
-ffmpeg -y -i input.mp4 -c:v libvpx -b:v 0 -crf 15 -pass 1 -an -f webm /dev/null
-ffmpeg -y -i input.mp4 -c:v libvpx -b:v 0 -crf 10 -vf scale=1280:720 -pass 2 -c:a libvorbis 720p.webm
-ffmpeg -y -i input.mp4 -c:v libvpx -b:v 0 -crf 8 -vf scale=1920:1080 -pass 2 -c:a libvorbis 1080p.webm
-ffmpeg -y -i input.mp4 -c:v libvpx -b:v 0 -crf 6 -vf scale=3840:2160 -pass 2 -c:a libvorbis 2160p.webm
+ffmpeg -y -i input.mp4 -c:v libvpx-vp9 -b:v 0 -crf 15 -pass 1 -an -f webm /dev/null
+ffmpeg -y -i input.mp4 -c:v libvpx-vp9 -b:v 0 -crf 10 -vf scale=1280:720 -pass 2 -c:a libvorbis 720p.webm
+ffmpeg -y -i input.mp4 -c:v libvpx-vp9 -b:v 0 -crf 8 -vf scale=1920:1080 -pass 2 -c:a libvorbis 1080p.webm
+ffmpeg -y -i input.mp4 -c:v libvpx-vp9 -b:v 0 -crf 6 -vf scale=3840:2160 -pass 2 -c:a libvorbis 2160p.webm
 rm ffmpeg2pass-0.log
