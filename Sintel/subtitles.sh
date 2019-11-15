@@ -8,10 +8,11 @@ function subs() {
     IFS=,
     ( while read idx lang
     do
-        echo "Exctracting ${lang} subtitle #${idx} from ${movie}"
-        ffmpeg -nostdin -hide_banner -loglevel quiet -i "${movie}" -map 0:"$idx" "${lang}.vtt"
+        echo "Extracting ${lang} subtitle #${idx} from ${movie}"
+        ffmpeg -nostdin -hide_banner -loglevel quiet -i "${movie}" -map 0:"$idx" subs/"${lang}.vtt"
     done <<< "${mappings}" )
     IFS=$OLDIFS
 }
 
+mkdir subs
 subs input.mkv
