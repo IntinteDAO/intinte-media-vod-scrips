@@ -2,7 +2,7 @@
 
 $movie["title"]="Big Buck Bunny";
 $movie["author"]="Blender Foundation";
-$movie["link"]="https://tube.midov.pl/videos/watch/6d284562-2171-4a90-8100-bc2df17c2407";
+$movie["link"]="6d284562-2171-4a90-8100-bc2df17c2407";
 $movie["description"]="The plot follows a day in the life of Big Buck Bunny, during which time he meets three bullying rodents: Frank the flying squirrel (the leader), and Rinky and Gimera (his sidekicks). The rodents amuse themselves by harassing helpless creatures of the forest by throwing fruits, nuts, and rocks at them.";
 $movie["hidden"]=0;
 $movie["license"]="CC BY 3.0";
