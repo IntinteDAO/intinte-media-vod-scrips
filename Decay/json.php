@@ -2,6 +2,7 @@
 
 $movie["title"]="Decay";
 $movie["author"]="H2ZZ PRODUCTIONS";
+$movie["link"]="788e723c-d8bb-415f-93a6-7fae3711f4fa";
 $movie["description"]="A security guard is walking along the maintenance tunnel of the Large Hadron Collider (LHC) at CERN when he turns around, meets an unidentified man whom he recognizes, and informs him that he is not supposed to be down there. The man proceeds to shoot the guard dead. (...)";
 $movie["hidden"]=0;
 $movie["license"]="CC BY-NC 3.0";
