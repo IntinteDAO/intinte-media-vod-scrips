@@ -2,6 +2,7 @@
 
 $movie["title"]="Caminandes: Llamigos";
 $movie["author"]="Blender Foundation";
+$movie["link"]="23f3ef79-15dc-44c5-aa45-cf92e78a4509";
 $movie["description"]="The films centers on the llama Koro in Patagonia and his attempts to overcome various obstacles. Koro meets Oti, a pesky magellanic penguin, in an epic battle over tasty red berries during the winter.";
 $movie["hidden"]=0;
 $movie["license"]="CC BY 4.0";
